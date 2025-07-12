@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.currency-select-dropdown::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.currency-select-dropdown::-webkit-scrollbar-track {
+    background: #2d3748; 
+    border-radius: 10px; 
+}
+
+.currency-select-dropdown::-webkit-scrollbar-thumb {
+    background-color: #fff; 
+    border-radius: 10px; 
+    border: 2px solid #2d3748; 
+}
+
+.currency-select-dropdown::-webkit-scrollbar-thumb:hover {
+    background-color: #636b77;
+}
